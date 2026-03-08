@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yes Cinema - Where Classic Films Live Forever</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="marquee-border">
+        <div class="marquee-lights"></div>
+    </div>
+
+    <header class="hero">
+        <div class="curtain curtain-left"></div>
+        <div class="curtain curtain-right"></div>
+        <div class="hero-content">
+            <div class="logo">
+                <h1>YES</h1>
+                <p class="tagline">Cinema Palaces</p>
+            </div>
+            <p class="hero-subtitle">Where the Golden Age Never Ended</p>
+        </div>
+    </header>
+
+    <nav class="navigation">
+        <button class="nav-btn active" data-section="showtimes">Now Showing</button>
+        <button class="nav-btn" data-section="locations">Our Palaces</button>
+        <button class="nav-btn" data-section="heritage">Heritage</button>
+    </nav>
+
+    <main>
+        <section id="showtimes" class="section active">
+            <div class="section-header">
+                <h2>Now Playing at Yes Cinema</h2>
+                <div class="art-deco-divider"></div>
+            </div>
+
+            <div class="films-grid">
+                <article class="film-card">
+                    <div class="film-poster">
+                        <div class="poster-placeholder poster-casablanca"></div>
+                        <div class="film-badge">35mm Print</div>
+                    </div>
+                    <div class="film-info">
+                        <h3>Casablanca</h3>
+                        <p class="film-meta">1942 · Directed by Michael Curtiz</p>
+                        <p class="film-description">"Here's looking at you, kid." Experience the romance and intrigue in this timeless masterpiece.</p>
+                        <div class="showtimes">
+                            <span class="time">2:00 PM</span>
+                            <span class="time">5:30 PM</span>
+                            <span class="time">9:00 PM</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="film-card">
+                    <div class="film-poster">
+                        <div class="poster-placeholder poster-vertigo"></div>
+                        <div class="film-badge">Restored</div>
+                    </div>
+                    <div class="film-info">
+                        <h3>Vertigo</h3>
+                        <p class="film-meta">1958 · Directed by Alfred Hitchcock</p>
+                        <p class="film-description">Hitchcock's haunting masterpiece of obsession and mystery, newly restored to its original splendor.</p>
+                        <div class="showtimes">
+                            <span class="time">1:30 PM</span>
+                            <span class="time">4:45 PM</span>
+                            <span class="time">8:15 PM</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="film-card">
+                    <div class="film-poster">
+                        <div class="poster-placeholder poster-singin"></div>
+                        <div class="film-badge">Matinee Special</div>
+                    </div>
+                    <div class="film-info">
+                        <h3>Singin' in the Rain</h3>
+                        <p class="film-meta">1952 · Directed by Gene Kelly & Stanley Donen</p>
+                        <p class="film-description">Pure Hollywood magic. The greatest musical ever made, now showing in glorious Technicolor.</p>
+                        <div class="showtimes">
+                            <span class="time">12:00 PM</span>
+                            <span class="time">3:30 PM</span>
+                            <span class="time">7:00 PM</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="film-card">
+                    <div class="film-poster">
+                        <div class="poster-placeholder poster-sunset"></div>
+                        <div class="film-badge">Late Night</div>
+                    </div>
+                    <div class="film-info">
+                        <h3>Sunset Boulevard</h3>
+                        <p class="film-meta">1950 · Directed by Billy Wilder</p>
+                        <p class="film-description">"I am big. It's the pictures that got small." A dark, unforgettable journey into Hollywood's past.</p>
+                        <div class="showtimes">
+                            <span class="time">4:00 PM</span>
+                            <span class="time">7:30 PM</span>
+                            <span class="time">10:45 PM</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="film-card">
+                    <div class="film-poster">
+                        <div class="poster-placeholder poster-maltese"></div>
+                        <div class="film-badge">Film Noir</div>
+                    </div>
+                    <div class="film-info">
+                        <h3>The Maltese Falcon</h3>
+                        <p class="film-meta">1941 · Directed by John Huston</p>
+                        <p class="film-description">Bogart at his finest in the film that defined the noir genre. Don't miss this legendary detective tale.</p>
+                        <div class="showtimes">
+                            <span class="time">2:30 PM</span>
+                            <span class="time">6:00 PM</span>
+                            <span class="time">9:30 PM</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="film-card">
+                    <div class="film-poster">
+                        <div class="poster-placeholder poster-philadelphia"></div>
+                        <div class="film-badge">Weekend Classic</div>
+                    </div>
+                    <div class="film-info">
+                        <h3>The Philadelphia Story</h3>
+                        <p class="film-meta">1940 · Directed by George Cukor</p>
+                        <p class="film-description">Hepburn, Grant, and Stewart in the most sophisticated romantic comedy ever crafted.</p>
+                        <div class="showtimes">
+                            <span class="time">1:00 PM</span>
+                            <span class="time">4:30 PM</span>
+                            <span class="time">8:00 PM</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="locations" class="section">
+            <div class="section-header">
+                <h2>Our Cinema Palaces</h2>
+                <div class="art-deco-divider"></div>
+            </div>
+
+            <div class="locations-grid">
+                <div class="location-card">
+                    <div class="location-icon">★</div>
+                    <h3>Yes Majestic</h3>
+                    <p class="location-address">725 Broadway<br>Downtown District</p>
+                    <p class="location-details">Our flagship palace. 800 seats of art deco splendor with original 1935 architecture, Wurlitzer organ, and crystal chandeliers.</p>
+                    <div class="location-features">
+                        <span class="feature">• 35mm Projection</span>
+                        <span class="feature">• Balcony Seating</span>
+                        <span class="feature">• Live Organist Weekends</span>
+                    </div>
+                </div>
+
+                <div class="location-card">
+                    <div class="location-icon">★</div>
+                    <h3>Yes Rialto</h3>
+                    <p class="location-address">1842 Wilshire Avenue<br>Arts Quarter</p>
+                    <p class="location-details">Intimate 300-seat theatre specializing in film noir and pre-code Hollywood. Original 1928 Spanish baroque interior lovingly preserved.</p>
+                    <div class="location-features">
+                        <span class="feature">• 35mm & 16mm</span>
+                        <span class="feature">• Lounge Bar</span>
+                        <span class="feature">• Late Night Screenings</span>
+                    </div>
+                </div>
+
+                <div class="location-card">
+                    <div class="location-icon">★</div>
+                    <h3>Yes Paramount</h3>
+                    <p class="location-address">456 Sunset Plaza<br>Westside</p>
+                    <p class="location-details">1200-seat movie palace built in 1931. Features include a starlit ceiling, Egyptian revival details, and the largest screen in the city.</p>
+                    <div class="location-features">
+                        <span class="feature">• 70mm Capability</span>
+                        <span class="feature">• Reserved Seating</span>
+                        <span class="feature">• Grand Lobby Events</span>
+                    </div>
+                </div>
+
+                <div class="location-card">
+                    <div class="location-icon">★</div>
+                    <h3>Yes Bijou</h3>
+                    <p class="location-address">89 Maple Street<br>Historic Village</p>
+                    <p class="location-details">Our cozy neighborhood gem. Built in 1938, this 150-seat theatre is perfect for matinees and classic musicals in an intimate setting.</p>
+                    <div class="location-features">
+                        <span class="feature">• 35mm Projection</span>
+                        <span class="feature">• Matinee Specials</span>
+                        <span class="feature">• Tea Service Available</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="heritage" class="section">
+            <div class="section-header">
+                <h2>Our Heritage</h2>
+                <div class="art-deco-divider"></div>
+            </div>
+
+            <div class="heritage-content">
+                <div class="heritage-story">
+                    <div class="heritage-year">1928</div>
+                    <h3>A Dream Takes Shape</h3>
+                    <p>In the twilight of the silent era, visionary exhibitor Samuel Goldstein opened the first Yes Cinema on Broadway, declaring "Yes to artistry, Yes to spectacle, Yes to the future of motion pictures."</p>
+                </div>
+
+                <div class="heritage-story">
+                    <div class="heritage-year">1935</div>
+                    <h3>The Golden Age Arrives</h3>
+                    <p>As Hollywood entered its golden age, Yes Cinema expanded to four magnificent palaces, each an architectural masterpiece designed to make moviegoing an event worthy of the silver screen's greatest stars.</p>
+                </div>
+
+                <div class="heritage-story">
+                    <div class="heritage-year">1952</div>
+                    <h3>Television's Challenge</h3>
+                    <p>While others abandoned elegance for economy, Yes Cinema doubled down on the theatrical experience. We installed larger screens, better sound, and maintained our commitment to presentation excellence.</p>
+                </div>
+
+                <div class="heritage-story">
+                    <div class="heritage-year">1978</div>
+                    <h3>Preservation Over Demolition</h3>
+                    <p>When multiplexes threatened to erase cinema history, Yes Cinema chose a different path: restoration. We saved our palaces from demolition and preserved them as living monuments to film's golden era.</p>
+                </div>
+
+                <div class="heritage-story">
+                    <div class="heritage-year">2010</div>
+                    <h3>A New Generation</h3>
+                    <p>Under new stewardship, Yes Cinema committed exclusively to classic film exhibition. We acquired rare prints, restored our 35mm projectors, and became a sanctuary for cinema's greatest achievements.</p>
+                </div>
+
+                <div class="heritage-story">
+                    <div class="heritage-year">Today</div>
+                    <h3>The Eternal "Yes"</h3>
+                    <p>Every night at Yes Cinema, audiences discover why movies were once called "dreams." In our palaces, the golden age never ended—it simply waits for you to take your seat.</p>
+                </div>
+            </div>
+
+            <div class="heritage-quote">
+                <blockquote>
+                    "We don't show old movies. We show eternal ones."
+                    <cite>— The Yes Cinema Promise</cite>
+                </blockquote>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Yes Cinema</h4>
+                <p>Where the Golden Age Lives Forever</p>
+            </div>
+            <div class="footer-section">
+                <h4>Visit</h4>
+                <p>Box Office: (555) YES-FILM<br>Open Daily: 12:00 PM - 11:00 PM</p>
+            </div>
+            <div class="footer-section">
+                <h4>Join Us</h4>
+                <p>Become a Yes Member<br>Monthly Film Club<br>Special Events</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Yes Cinema Palaces. Est. 1928. All screenings presented in their original format.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
